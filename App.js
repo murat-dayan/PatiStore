@@ -27,13 +27,16 @@ const styles=StyleSheet.create({
   container:{
     flex:1,
     backgroundColor:'#fff',
-    paddingTop:20
+    paddingTop:20,
+    backgroundColor:'orange'
   },
 
   header_text:{
     fontSize:50,
-    color:'black',
-    textAlign:'center'
+    color:'purple',
+    textAlign:'center',
+    borderRadius:10,
+    fontStyle:"italic"
   }
 })
   

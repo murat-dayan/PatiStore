@@ -25,7 +25,6 @@ const styles= StyleSheet.create({
     text_ınput:{
         backgroundColor:'white',
         fontSize:15,
-        borderStyle: 'solid'
     }
 })
 

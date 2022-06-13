@@ -4,9 +4,10 @@ import { StyleSheet , Dimensions} from "react-native"
 export default StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'gray',
+        backgroundColor:'yellow',
         padding:10,
-        margin:10
+        margin:10,
+        borderRadius:10
     },
 
     image:{
@@ -20,17 +21,21 @@ export default StyleSheet.create({
     },
 
     title:{
-        fontSize:12,
+        fontSize:15,
         fontWeight:'bold'
     },
     price:{
-        fontSize:10
+        fontSize:15,
+        fontWeight:"normal",
+        fontStyle:'italic'
     },
     inStock:{
+        textAlign:"right",
+        alignItems:"baseline",
         color:'red',
         textTransform:'uppercase',
         fontWeight:'bold',
-        fontSize:12
+        fontSize:15
     }
 
 
